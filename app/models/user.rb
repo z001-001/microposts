@@ -9,4 +9,5 @@ class User < ActiveRecord::Base
   validates :location, length: { maximum: 255 }
   validates :url, length: { maximum: 255 }
   has_secure_password
+  has_many :microposts
 end
