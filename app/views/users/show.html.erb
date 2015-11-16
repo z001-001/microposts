@@ -5,6 +5,23 @@
         <%= gravatar_for @user %>
         <%= @user.name %>
       </h1>
+      <div>
+        <%= link_to "Followings", followings_user_path %>
+        <%= link_to  "Followers", followers_user_path %>
+      </div>
+      <div class="description">
+        <%= @user.description %>
+      </div>
+      <% if @user.location %>
+        <span class="location">
+          Location: <%= @user.location %>
+        </span>
+      <% end %>
+      <% if @user.url %>
+        <span>
+          <%= link_to "Homepage", @user.url, target: "_blank" %>
+        </span>
+      <% end %>
     </section>
   </aside>
   <div class="col-md-8">

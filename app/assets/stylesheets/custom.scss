@@ -131,6 +131,11 @@ aside {
       margin-bottom: 3px;
       margin-top: 0px;
     }
+    .description {
+      clear: both;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
   }
 }
 
@@ -187,5 +192,27 @@ span.picture {
   margin-top: 10px;
   input {
     border: 0;
+  }
+}
+
+/* followings followers */
+
+.followings_followers {
+  list-style: none;
+  padding: 0;
+  li {
+    display: block;
+    padding: 10px 0;
+    padding-bottom: 50px;
+    border-top: 1px solid #e8e8e8;
+  }
+  .user {
+    margin-top: 5em;
+    padding-top: 0;
+  }
+  .gravatar {
+    float: left;
+    margin-right: 10px;
+    margin-top: 5px;
   }
 }
