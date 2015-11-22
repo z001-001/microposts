@@ -1,0 +1,70 @@
+ja:
+  microposts:
+    not_log_in: ログインしてください
+  layouts:
+    header:
+      home: ホーム
+      help: ヘルプ
+      users: ユーザー
+      account: アカウント
+      profile: プロフィール
+      settings: 設定
+      language: 言語
+      log_out: ログアウト
+      log_in: ログイン
+  users:
+    new:
+      sign_up: サインアップ
+      create: アカウント作成
+    show:
+      followings: フォロー
+      followers: フォロワー
+      location: 場所
+      url: ホームページ
+    edit:
+      settings: 設定
+      update: 更新
+    create:
+      flash_welcome: サンプルアプリにようこそ
+    update:
+      flash_update_success: 設定が更新されました
+    followings:
+      title_followings: フォロー
+    followers:
+      title_followers: フォロワー
+    follow:
+      follow: フォロー
+    unfollow:
+      unfollow: フォロー取消し
+  sessions:
+    new:
+      email: メールアドレス
+      password: パスワード
+      log_in: ログイン
+      new_user: 新規ユーザー？
+      sign_up_now: 今すぐサインアップ！
+    create:
+      flash_success: "%{name} としてログインしました"
+      flash_failed: メールアドレスかパスワードが違っています。
+  static_pages:
+    home:
+      micropost_feed: Micropost フィード
+      welcome: Micropostsへようこそ
+      sign_up_now: 今すぐサインアップ！
+  shared:
+    error_messages:
+      message: エラーが %{count} 個あります。
+    user_info:
+      view_my_profile: プロフィールを見る
+    micropost_form:
+      compose_new_micropost: 新しいmicropostを書く...
+      post: 投稿
+  microposts:
+    create:
+      flash_created: Micropost 作成!
+    destroy:
+      flash_deleted: Micropost 削除
+    micropost:
+      posted_ago: 投稿 %{time_ago_in_words}前.
+      delete: 削除
+      you_sure: よろしいですか？

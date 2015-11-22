@@ -1,0 +1,17 @@
+ja:
+  activerecord:
+    models:
+      user: ユーザー
+    attributes:
+      user:
+        id: ID
+        name: 名前
+        email: メールアドレス
+        password: パスワード
+        password_confirmation: 確認パスワード
+        content: コンテント
+        created_at: 登録日時
+        updated_at: 更新日時
+        description: プロフィール
+        location: 場所
+        url: ホームページ

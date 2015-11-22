@@ -1,0 +1,72 @@
+en:
+  microposts:
+    not_log_in: Please log in.
+  layouts:
+    header:
+      home: Home
+      help: Help
+      users: Users
+      account: Account
+      profile: Profile
+      settings: Settings
+      language: Language
+      log_out: Log Out
+      log_in: Log in
+  users:
+    new:
+      sign_up: Sign up
+      create: Create my account
+    show:
+      followings: Followings
+      followers: Followers
+      location: Location
+      url: Homepage
+    edit:
+      settings: Settings
+      update: Update my account
+    create:
+      flash_welcome: Welcome to the Sample App!
+    update:
+      flash_update_success: Success. Update of User Settings
+    followings:
+      title_followings: Followings
+    followers:
+      title_followers: Followers
+    follow:
+      follow: Follow
+    unfollow:
+      unfollow: Unfollow
+  sessions:
+    new:
+      email: E-mail
+      password: Password
+      log_in: Log in
+      new_user: New user?
+      sign_up_now: Sing up now!
+    create:
+      flash_success: logged in as %{name}
+      flash_failed: Invalid email/password combination
+  static_pages:
+    home:
+      micropost_feed: Micropost Feed
+      welcome: Welcome to the Microposts
+      sign_up_now: Sign up now!
+  shared:
+    error_messages:
+      message:
+        one: The form contains %{count} error.
+        other: The form contains %{count} errors.
+    user_info:
+      view_my_profile: view my profile
+    micropost_form:
+      compose_new_micropost: Compose new micropost...
+      post: Post
+  microposts:
+    create:
+      flash_created: Micropost created!
+    destroy:
+      flash_deleted: Micropost deleted
+    micropost:
+      posted_ago: Posted %{time_ago_in_words} ago.
+      delete: delete
+      you_sure: You sure?

@@ -6,20 +6,20 @@
         <%= @user.name %>
       </h1>
       <div>
-        <%= link_to "Followings", followings_user_path %>
-        <%= link_to  "Followers", followers_user_path %>
+        <%= link_to t(".followings"), followings_user_path %>
+        <%= link_to t(".followers"), followers_user_path %>
       </div>
       <div class="description">
         <%= @user.description %>
       </div>
-      <% if @user.location %>
+      <% if @user.location.present? %>
         <span class="location">
-          Location: <%= @user.location %>
+          <%= t(".location") %>: <%= @user.location %>
         </span>
       <% end %>
-      <% if @user.url %>
+      <% if @user.url.present? %>
         <span>
-          <%= link_to "Homepage", @user.url, target: "_blank" %>
+          <%= link_to t(".url"), @user.url, target: "_blank" %>
         </span>
       <% end %>
     </section>

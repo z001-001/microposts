@@ -14,7 +14,7 @@ class UsersController < ApplicationController
   def create
     @user = User.new(user_params)
     if @user.save
-      flash[:success] = "Welcome to the Sample App!"
+      flash[:success] = t(".flash_welcome") #"Welcome to the Sample App!"
       redirect_to @user
     else
       render 'new'
@@ -27,7 +27,7 @@ class UsersController < ApplicationController
   def update
     if @user.update(user_params)
       # 更新に成功した場合
-      flash[:success] = "Success. Update of User Settings"
+      flash[:success] = t(".flash_update_success") #"Success. Update of User Settings"
       redirect_to @user
     else
       # 更新に失敗した場合は編集画面へ戻す
@@ -36,14 +36,14 @@ class UsersController < ApplicationController
   end
 
   def followings
-    @title = "Followings"
+    @title = t(".title_followings") # "Followings"
     @user = User.find(params[:id])
     @users = @user.following_users
     render 'followings_followers'
   end
 
   def followers
-    @title = "Followers"
+    @title = t(".title_followers") # "Followers"
     @user = User.find(params[:id])
     @users = @user.follower_users
     render 'followings_followers'
