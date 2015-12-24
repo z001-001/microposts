@@ -19,6 +19,7 @@ en:
     show:
       followings: Followings
       followers: Followers
+      favorites: Favorites
       location: Location
       url: Homepage
     edit:
@@ -36,6 +37,8 @@ en:
       follow: Follow
     unfollow:
       unfollow: Unfollow
+    favorites:
+      favorites: Favorites
   sessions:
     new:
       email: E-mail

@@ -173,11 +173,21 @@ aside {
     color: $gray-light;
     display: block;
     margin-left: 60px;
+
+    div {
+      display: inline;
+    }
   }
   .gravatar {
     float: left;
     margin-right: 10px;
     margin-top: 5px;
+  }
+  .new_favorite {
+    display: inline-block;
+  }
+  .edit_favorite {
+    display: inline-block;
   }
 }
 

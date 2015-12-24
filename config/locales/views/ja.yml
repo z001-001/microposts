@@ -19,6 +19,7 @@ ja:
     show:
       followings: フォロー
       followers: フォロワー
+      favorites: お気に入り
       location: 場所
       url: ホームページ
     edit:
@@ -36,6 +37,8 @@ ja:
       follow: フォロー
     unfollow:
       unfollow: フォロー取消し
+    favorites:
+      favorites: お気に入り
   sessions:
     new:
       email: メールアドレス
